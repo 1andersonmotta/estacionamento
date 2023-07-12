@@ -1,12 +1,17 @@
-import express, {request, response} from 'express';
-import { activityCheckin, 
-         activityCheckout, 
-         listActivities, 
-         removeActivity } from './controllers/activitesController.js';
-import { insertVehicles, 
-        listVehicles, 
-        removeVehicle, 
-        updateVehicles } from './controllers/vehiclesController.js';
+// import express, {request, response} from 'express';
+import express, { request, response } from 'express';
+import {
+    activityCheckin,
+    activityCheckout,
+    listActivities,
+    removeActivity
+} from './controllers/activitesController.js';
+import {
+    insertVehicles,
+    listVehicles,
+    removeVehicle,
+    updateVehicles
+} from './controllers/vehiclesController.js';
 
 const app = express();
 
